@@ -324,6 +324,7 @@ MonoBehaviour:
   gravityModifier: 1.5
   isOnGround: 1
   gameOver: 0
+  explosionParticle: {fileID: 1085098171}
 --- !u!4 &368116151 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d70170446aa035f40a2429d04ab83ea6, type: 3}
@@ -602,6 +603,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 112.79999, y: 18.781641, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!198 &1085098171 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 9125212449759046732, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+  m_PrefabInstance: {fileID: 517625467}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1340546316
 GameObject:
   m_ObjectHideFlags: 0
